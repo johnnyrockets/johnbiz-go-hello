@@ -13,5 +13,5 @@ func (app *application) home(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	fmt.Fprintf(w, "Huzzah!  You're here")
+	fmt.Fprintf(w, "Huzzah!  You're here and this site is going to be baller")
 }
